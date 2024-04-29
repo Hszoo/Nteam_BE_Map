@@ -23,13 +23,4 @@ public class MapController {
 
         return mapDto;
     }
-//    public MapDto init(@RequestBody String address) throws ParseException {
-//        MapDto mapDto = new MapDto();
-//        String json = mapService.getKakaoApiFromAddress(address);
-//        MapDto pos = mapService.changeToJSON(json);
-//        mapDto.setLongitude(pos.getLongitude());
-//        mapDto.setLatitude(pos.getLatitude());
-//
-//        return mapDto;
-//    }
 }
